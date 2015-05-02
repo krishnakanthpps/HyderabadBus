@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Where is my Bus</string>
+    <string name="google_maps_key">AIzaSyDqFU0P1oapHIOi61qrfn3tUyb7R9gWAAk</string>
+    <string name="title_activity_map_view">Bangalore Map</string>
+    <string name="Title">Where Is My Bus</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_location">Location</string>
+
+    <string name="title_buses">Report a Bus!</string>
+
+    <string name="lbl_you_are_at">Welcome!</string>
+    <string name="btn_get_location">Get My Location</string>
+    <string name="btn_start_location_updates">START LOCATION UPDATES</string>
+    <string name="btn_stop_location_updates">STOP LOCATION UPDATES</string>
+    <string name="title_activity_buses">Buses</string>
+    <string name="title_activity_filter">Filter</string>
+    <string name="title_activity_home">Where is my Bus</string>
+    <string name="title_activity_buses_op">BusesOp</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_forgot_password">ForgotPassword</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_above="@id/action_context_bar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tanmayee.whereismybus.MapView">
+    <fragment
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/abc_activity_chooser_view"
+        map:cameraBearing="0"
+        map:cameraTargetLat="12.9667"
+        map:cameraTargetLng="77.5667"
+        map:cameraTilt="0"
+        map:cameraZoom="13"
+        map:mapType="normal"
+        map:uiCompass="false"
+        map:uiRotateGestures="true"
+        map:uiScrollGestures="true"
+        map:uiTiltGestures="true"
+        map:uiZoomControls="false"
+        map:uiZoomGestures="true"
+        tools:ignore="MissingPrefix"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Report"
+        android:id="@+id/report"
+        android:background="@color/light_yellow"
+        android:layout_above="@+id/filter"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filter"
+        android:id="@+id/filter"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/light_yellow"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/busFilter"
+        android:ems="10"
+        android:hint="G3/356C (no hyphens)"
+        android:layout_alignBottom="@+id/filter"
+        android:layout_toRightOf="@+id/filter"
+        android:layout_toEndOf="@+id/filter"
+        android:textColor="@color/black"/>
+</RelativeLayout>
