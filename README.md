@@ -1,2 +1,2 @@
-## WhereIsMyBus ##
-# A crowdsourced BMTC (Bangalore Metropolitan Transport Corporation) Bus Spotting Application #
+#WhereIsMyBus #
+A crowdsourced BMTC (Bangalore Metropolitan Transport Corporation) Bus Spotting Application
